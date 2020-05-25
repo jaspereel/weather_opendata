@@ -1,0 +1,105 @@
+body{
+    background-color: #3a79cc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "微軟正黑體";
+}
+h1{
+    color:white;
+}
+
+footer{
+    color:white;
+}
+
+@media (max-width: 575px) { 
+    .select-item{
+        min-width: 300px;
+        height:35px;
+        font-family: '微軟正黑體';
+        font-size: 16px;
+        margin: 10px 0;
+        border-radius: 15px;
+    }
+    .weather{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .weather-time{
+        min-width: 300px;
+        height:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px 10px 0 0;
+        font-weight: bold; 
+        color:#3a79cc;
+    }
+    .weather-report{
+        background-color: rgba(240, 248, 255, 0.603);
+        border-radius: 0 0 10px 10px; 
+        min-width: 300px;
+        height:90px;
+        display: flex;
+        justify-content: start;
+        align-content: center;
+    }
+    .weather-img{
+        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .weather-img-size{
+        width: 80%;
+    }
+}
+@media (min-width: 576px) { 
+    .select-item{
+        min-width: 450px;
+        height:35px;
+        font-family: '微軟正黑體';
+        font-size: 16px;
+        margin: 10px 0;
+        border-radius: 15px;
+    }
+    .weather{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .weather-time{
+        width: 100px;
+        height:100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px 0 0 10px;
+        font-weight: bold; 
+        color:#3a79cc;
+    }
+    .weather-report{
+        background-color: rgba(240, 248, 255, 0.603);
+        border-radius: 0 10px 10px 0; 
+        width: 300px;
+        height:100px;
+        display: flex;
+        justify-content: start;
+        padding: 0 25px;
+        align-content: center;
+    }
+    .weather-img{
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
